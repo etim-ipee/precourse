@@ -1,0 +1,14 @@
+git add filename.ext.(This stages only the 
+specified file (e.g., git add index.html) 
+so it’s included in the next commit).
+ 
+git add .(This stages all modified, new, 
+and deleted files in the current directory 
+and its subdirectories for the next commit)
+
+The Difference.
+git add filename.ext → precise control, you 
+choose exactly which file(s) to stage.
+
+git add . → bulk staging, everything in the 
+current folder is staged at once.

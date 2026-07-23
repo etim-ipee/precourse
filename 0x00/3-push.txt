@@ -1,0 +1,16 @@
+git push origin main
+
+What origin and main mean
+origin → the default name Git gives to the
+ remote repository usually on GitHub when you 
+ first clone or add it.  
+  Think of it as a nickname for the remote URL.
+
+main → the name of the branch you’re pushing 
+to. By convention, modern Git uses main as the 
+default branch (older repos often used master).
+
+ First push with upstream set
+When you push for the very first time, you 
+also need to set the upstream branch so Git
+ knows where to track changes.

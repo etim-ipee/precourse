@@ -1,0 +1,15 @@
+git commit -m "My first git commit"
+A commit is like taking a snapshot of my project
+ at a specific point in time. It records the
+  changes I’ve staged (with git add) and saves 
+  them into the repository’s history, so I can
+   revisit or roll back to that version later.
+
+   Tip for writing good commit messages:
+Write commit messages that are clear, concise,
+ and descriptive. A good format is:
+
+Imperative tone (e.g., “Add login form” instead
+ of “Added login form”)
+Explain the “what” and sometimes the “why”, 
+not the “how” (the code already shows how).
