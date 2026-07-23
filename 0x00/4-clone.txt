@@ -1,0 +1,26 @@
+The command to clone a repository:
+git clone <remote address>
+
+The Difference Between HTTPS and SSH Clone URLs.
+HTTPS URL:
+Format: https://github.com/username/repo.git
+Authentication: Uses your GitHub username/password or a Personal Access Token (PAT).
+Pros: Easy to set up, works behind most firewalls.
+Cons: Requires entering credentials unless you cache them.
+
+SSH URL:
+Format: git@github.com:username/repo.git
+Authentication: Uses SSH keys stored on your computer.
+Pros: More secure, no need to repeatedly enter credentials once keys are set up.
+Cons: Requires initial setup of SSH keys and adding them to GitHub.
+
+ What Happens on My Computer When I Run git clone.
+Git creates a new folder named after the repository (e.g., precourse).
+
+Inside that folder, it downloads:
+
+All files from the repository.
+The full commit history.
+Git configuration files (so I can pull, push, and manage branches).
+
+Essentially, I now have a local copy of the project that I can edit, run, and contribute to.
