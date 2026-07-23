@@ -1,0 +1,39 @@
+Commands to:
+1. create a branch(without switching): git branch feature-login.
+    (This makes a new branch called feature-login).
+
+2. switch branches: git checkout feature-login
+       (This moves you into that branch).
+
+3. create and switch in one command: git checkout -b feature-login.
+        (This both creates the branch and checks it out in one step).
+
+       
+ Why We Use Branches (Real-World Scenario)
+Branches are like parallel universes for your code. They let you experiment, 
+build features, or fix bugs without disturbing the main project.
+
+Example scenario:
+Imagine you’re working on a web app with your team:
+
+The main branch holds the stable version that users rely on.
+
+You want to add a new login feature. Instead of editing main directly 
+(which could break things), you create a branch called feature-login.
+
+You build and test the login system there. Meanwhile, your teammate 
+can work on a feature-dashboard branch.
+
+Once your feature is ready and tested, you merge it back into main.
+
+This way:
+
+*The project stays stable.
+
+*Multiple people can work independently.
+
+*You can roll back easily if something goes wrong.
+
+*In short: branches = safe playgrounds for development.
+ They keep the main codebase clean while allowing innovation and teamwork.
+
