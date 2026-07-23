@@ -1,0 +1,5 @@
+//Repository initialization
+git init: Explanation: This command creates a new, 
+empty Git repository in the current directory,
+ allowing you to start tracking changes to your
+  project files with version control.
